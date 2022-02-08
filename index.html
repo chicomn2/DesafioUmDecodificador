@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="titulo">Decodificador de Texto</h1>
+  <h1 class="titulo">Alura Challenge</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <h2 id="">Escreva sua mensagem:</h2>
+        <label for="input-texto">(Utilize apenas letras minúsculas, sem acentos e/ou números)</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui">
+        <input class="btn" type="submit" value="Criptografar!" id="btn-cripto">
+        <input class="btn" type="submit" value="Descriptografar!" id="btn-descripto">
+        <input class="btn" type="submit" value="Colar" id="botao-colar">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <h2 id="">Mensagem criptografada:</h2>
+      <input class="text-input" type="text" id="msg" placeholder="A mensagem aparecerá aqui"></input>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
+    </section>
+  </main>
+  
+  <input class="btn-clear" type="submit" value="Limpar" id="botao-limpar">
+  <footer>Desenvolvido por Francisco Nascimento</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
